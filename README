@@ -1,0 +1,22 @@
+# Flame Detection System
+
+A computer vision project designed to detect flames in images or video frames using custom color and intensity thresholds. This project utilizes OpenCV and NumPy to process images and detect flame regions based on configurable parameters.
+
+## Introduction
+
+The Flame Detection System leverages image processing techniques to identify flame-like regions in an image. By using color and intensity thresholds, this system can highlight areas that match the typical visual characteristics of flames. It is highly configurable and suitable for various fire detection applications, such as safety monitoring and industrial use.
+
+## Features
+
+- Detects flame-like regions based on configurable hue, saturation, and intensity ranges.
+- Noise removal using morphological operations.
+- Adjustable minimum and maximum contour areas to filter out irrelevant detections.
+- Simple integration and configuration through JSON files.
+
+## Technologies Used
+
+- **OpenCV**: For image processing and contour detection.
+- **NumPy**: For numerical operations and mask creation.
+- **Python Logging Module**: For tracking events and debugging.
+
+

@@ -1,0 +1,7 @@
+{
+    "hue_range": [0, 30],
+    "saturation_range": [100, 255],
+    "intensity_range": [100, 255],
+    "min_contour_area": 100
+}
+  
